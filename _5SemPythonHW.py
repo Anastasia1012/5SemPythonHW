@@ -45,9 +45,11 @@
 numbers = [1, 2, 3, 4, 5]
 prog_languages = ['Java', 'C++', 'Csharp', 'Python']
 data = list(zip(numbers, prog_languages))
-print(data)
+print(data, str.upper)
 
-
+#arr.append(line.upper())
+#        else:
+#            arr.append(line)
 
 
 
